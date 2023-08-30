@@ -1,0 +1,55 @@
+body {
+    background-color: #f3f9f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    background-color: #2ecc71;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #229853;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.header {
+    background: url('./images/agro_Banner.png') center/cover;
+    background-color: #2ecc71;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+.workshops {
+    display: flex;
+}
+
+.section {
+    padding: 50px;
+}
+
+.workshop {
+    text-align: center;
+}
+
+#fale-conosco button {
+    background-color: #2ecc71;
+    color: #fff;
+}
